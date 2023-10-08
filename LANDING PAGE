@@ -1,0 +1,102 @@
+INDEX.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Interactive Learning: Engage in hands-on coding with real projects and quizzes to master web development concepts, making learning fun and effective.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Practical Skills: Gain practical experience by building websites, responsive designs, and dynamic web applications, preparing for real-world web development challenges.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Expert Guidance: Learn from experienced instructors, get personalized feedback on your code, and access a supportive community to boost your web development journey.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Shruti Deshmukh, a BTech student at Oriental College of Technology, Bhopal, passionate about tech, innovation, and web development.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach us at shrutideshmukh2004@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Landing Page</p>
+    </footer>
+</body>
+</html>
+.....................................................................................................................................................
+
+
+
+style.css
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+}
+
+/* Style the feature boxes */
+.feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
